@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- Name Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Order Feedback"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:id="@+id/tvSummary" />
+    <TextView
+        android:id="@+id/pid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <!-- Input Name -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17sp"
+        android:id="@+id/tvProduct" />
+
+    <!-- Price Label -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Cost"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="14sp"
+        android:id="@+id/lbltotalcost" />
+
+    <!-- Input Price -->
+
+    <!-- Description Label -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Quantity"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="14sp"
+        android:id="@+id/lblqty" />
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Order Status"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="14sp"/>
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="-Order Pending"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="14sp"
+        android:id="@+id/lblstatus" />
+
+    <!-- Input description -->
+
+    <!-- Button Create Product -->
+
+</LinearLayout>

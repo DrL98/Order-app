@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+ 
+    <!-- Name Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Order Summary"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:id="@+id/tvSummary" />
+    <TextView
+        android:id="@+id/pid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <!-- Input Name -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17sp"
+        android:id="@+id/tvProductName" />
+ 
+    <!-- Price Label -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="19sp"
+        android:id="@+id/lblPrice" />
+ 
+    <!-- Input Price -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="K"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:textStyle="bold"
+        android:paddingTop="10dip"
+        android:textSize="17sp"
+        android:id="@+id/tvPrice" />
+ 
+    <!-- Description Label -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Quantity"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17sp"
+        android:id="@+id/lblqty" />
+ 
+    <!-- Input description -->
+
+    <EditText android:id="@+id/inputQty"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:layout_marginBottom="15dip"
+        android:lines="4"
+        android:gravity="top"
+        android:text="1"
+        android:inputType="number" />
+ 
+    <!-- Button Create Product -->
+    <Button android:id="@+id/btnOrderProduct"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Place Order"/>
+ 
+</LinearLayout>

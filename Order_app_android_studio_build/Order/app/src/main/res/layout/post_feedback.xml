@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+ 
+    <!-- Name Label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Product Feedback"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:id="@+id/tvSummary" />
+    <TextView
+        android:id="@+id/pid"
+        android:text="no"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+      />
+
+    <!-- Input Name    -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17sp"
+        android:id="@+id/tvProductName" />
+ 
+    <!-- Price Label -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Rating"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="19sp"
+        android:id="@+id/lblPrice" />
+ 
+    <!-- Input Price -->
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ratingBar" />
+
+    <!-- Description Label -->
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Comment"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="10dip"
+        android:textSize="17sp"
+        android:id="@+id/lblcomment" />
+ 
+    <!-- Input description -->
+
+    <!-- Button Create Product -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"></FrameLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/inputComments"
+        android:layout_gravity="center_horizontal"
+        android:lines="2" />
+
+    <Button android:id="@+id/btnSendFeedback"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Leave Feedback"/>
+ 
+</LinearLayout>

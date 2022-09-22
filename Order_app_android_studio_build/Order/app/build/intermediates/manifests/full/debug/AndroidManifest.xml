@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.order"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <!-- Internet Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.order.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+
+        <!-- All Product Activity -->
+        <activity
+            android:name="com.example.order.AllProductsActivity"
+            android:label="Kazuma Products" >
+        </activity>
+
+        <!-- Add Product Activity -->
+        <activity
+            android:name="com.example.order.NewProductActivity"
+            android:label="Add New Product" >
+        </activity>
+        <activity
+            android:name="com.example.order.PlaceOrder"
+            android:label="Make Order" >
+        </activity>
+
+        <!-- Edit Product Activity -->
+        <activity
+            android:name="com.example.order.EditProductActivity"
+            android:label="Edit Product" >
+        </activity>
+        <!-- Login Activity -->
+        <activity
+            android:name="com.example.order.Login"
+            android:label="Kazuma" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Register Activity -->
+        <activity
+            android:name="com.example.order.Register"
+            android:label="Register New Account" />
+        <activity
+            android:name="com.example.order.ViewOrders"
+            android:label="My Orders" />
+        <activity
+            android:name="com.example.order.ViewOrderFeedback"
+            android:label="View Feedback" />
+    </application>
+
+</manifest>

@@ -1,0 +1,5 @@
+C:\Users\Chuck\AndroidStudioProjects\Order\app\build\intermediates\classes\debug
+C:\Users\Chuck\AndroidStudioProjects\Order\app\build\intermediates\pre-dexed\debug\support-annotations-20.0.0-d45e62ec02b1a4108ba4f61beb4314975762a019.jar
+C:\Users\Chuck\AndroidStudioProjects\Order\app\build\intermediates\pre-dexed\debug\internal_impl-20.0.0-5dcc901e7caae8ed160330a87a63868e9c3dd752.jar
+C:\Users\Chuck\AndroidStudioProjects\Order\app\build\intermediates\pre-dexed\debug\classes-4dccbda98426697c12974e0b62d378e069cbe35c.jar
+C:\Users\Chuck\AndroidStudioProjects\Order\app\build\intermediates\pre-dexed\debug\classes-2a9751a382b30edf6432340385fdfdc8480090e8.jar
